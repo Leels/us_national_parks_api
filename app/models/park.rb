@@ -1,2 +1,2 @@
-class Park < AppllicationRecord
+class Park < ApplicationRecord
 end

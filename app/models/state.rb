@@ -1,2 +1,2 @@
-class State < AppllicationRecord
+class State < ApplicationRecord
 end
