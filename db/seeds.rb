@@ -85,6 +85,22 @@ class Seed
 
         park21 = state5.parks.new(name: "Redwood", date_established: "October 2, 1968", description: "This park and the co-managed state parks protect almost half of all remaining coastal redwoods, the tallest trees on earth. There are three large river systems in this very seismically active area, and 37 miles (60 km) of protected coastline reveal tide pools and seastacks. The prairie, estuary, coast, river, and forest ecosystems contain a wide variety of animal and plant species.", state_id: state5.id)
         state5.save
+
+        park22 = state6.parks.new(name: "Mesa Verde", date_established: "June 29, 1906", description: "This area constitutes over 4,000 archaeological sites of the Ancestral Puebloan people, who lived here and elsewhere in the Four Corners region for at least 700 years. Cliff dwellings built in the 12th and 13th centuries include Cliff Palace, which has 150 rooms and 23 kivas, and the Balcony House, with its many passages and tunnels.", state_id: state6.id)
+
+        park23 = state6.parks.new(name: "Great Sand Dunes", date_established: "September 13, 2004", description: "The tallest sand dunes in North America, up to 750 feet (230 m) tall, were formed by deposits of the ancient Rio Grande in the San Luis Valley. Abutting a variety of grasslands, shrublands, and wetlands, the park also has alpine lakes, six 13,000-foot mountains, and old-growth forests.", state_id: state6.id)
+
+        park25 = state6.parks.new(name: "Black Canyon of the Gunnison", date_established: "October 21, 1999", description: "The park protects a quarter of the Gunnison River, which slices sheer canyon walls from dark Precambrian-era rock. The canyon features some of the steepest cliffs and oldest rock in North America, and is a popular site for river rafting and rock climbing. The deep, narrow canyon is composed of gneiss and schist which appears black when in shadow.", state_id: state6.id)
+
+        park26 = state6.parks.new(name: "Rocky Mountain", date_established: "January 26, 1915", description: "Bisected north to south by the Continental Divide, this portion of the Rockies has ecosystems varying from over 150 riparian lakes to montane and subalpine forests to treeless alpine tundra. Wildlife including mule deer, bighorn sheep, black bears, and cougars inhabit its igneous mountains and glacial valleys. Longs Peak, a classic Colorado fourteener, and the scenic Bear Lake are popular destinations, as well as the historic Trail Ridge Road, which reaches an elevation of more than 12,000 feet (3,700 m).", state_id: state6.id)
+        state6.save
+
+        park27 = state7.parks.new(name: "Dry Tortugas", date_established: "October 26, 1992", description: "The islands of the Dry Tortugas, at the westernmost end of the Florida Keys, are the site of Fort Jefferson, a Civil War-era fort that is the largest masonry structure in the Western Hemisphere. The park is home to undisturbed coral reefs and shipwrecks, and is only accessible by plane or boat.", state_id: state7.id)
+
+        park28 = state7.parks.new(name: "Everglades", date_established: "May 30, 1934", description: "The Everglades are the largest tropical wilderness in the United States. This mangrove and tropical rainforest ecosystem and marine estuary is home to 36 protected species, including the Florida panther, American crocodile, and West Indian manatee. Some areas have been drained and developed; restoration projects aim to restore the ecology.", state_id: state7.id)
+
+        park29 = state7.parks.new(name: "Biscayne", date_established: "June 28, 1980", description: "Located in Biscayne Bay, this park at the north end of the Florida Keys has four interrelated marine ecosystems: mangrove forest, the Bay, the Keys, and coral reefs. Threatened animals include the West Indian manatee, American crocodile, various sea turtles, and peregrine falcon.", state_id: state7.id)
+        state7.save
       end
     end
   end
