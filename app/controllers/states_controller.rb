@@ -18,14 +18,14 @@ class StatesController < ApplicationController
   def update
     @state = State.find(params[:id])
     if @state.update!(state_params)
-      render status: 200, json: {message: "State has been successfully updated"}
+      render status: 200, json: {message: "State has been successfully updated."}
     end
   end
 
   def destroy
     @state = State.find(params[:id])
     if @state.destroy!
-      render status: 200, json: { message: "State has been successfully deleted"}
+      render status: 200, json: { message: "State has been successfully deleted."}
     end
   end
 
