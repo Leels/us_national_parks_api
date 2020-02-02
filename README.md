@@ -16,27 +16,15 @@
 * navigate to localhost:3000
 
 ### API Endpoints
-|HTTP verb|Route|CRUD Action|Description|
-|---|---|---|---|
-|GET|/products|READ|Get list of products|
-|GET|/products/:id|READ|Look at detail page for a single product|
-|POST|/products|CREATE|Add new product to the list of products|
-|PATCH|/products/:id|UPDATE|Update a single product|
-|DELETE|/products/:id|DELETE|Delete a product from the list|
-|GET|/products/new|READ|Go to the form page for adding a new product to the list|
-|GET|/products/:id/edit|READ|Go to the form page for editing a product
+* View all States with National Parks GET "/states"
+![states path](https://raw.githubusercontent.com/Leels/us_national_parks_api/master/public/images/Screen%20Shot%202020-02-02%20at%201.12.47%20PM.png)
+* View a specific state GET "/states/:id"
+* View all parks that belong to a specific state GET "/states/:id/parks"
+* View a specific park GET "/states/:id/parks/:id"
 
-
-|HTTP verb|Route|CRUD Action|Description|
-|---|---|---|---|
-|GET|/products/:id/reviews/:review_id|READ|Look at detail page for a single review|
-|POST|/products/:id/reviews/:review_id|CREATE|Add new review to the list of reviews|
-|PATCH|/products/:id/reviews/:review_id|UPDATE|Update a single review|
-|DELETE|/products/:id/reviews/:review_id|DELETE|Delete a review from the list|
 
 ### Known Bugs
 #### No known bugs at this time
-
 
 ### Technologies Used
 * Ruby 2.5.1
