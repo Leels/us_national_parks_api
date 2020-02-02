@@ -25,9 +25,11 @@
 * View a specific park: GET "/states/:id/parks/:id"
 ![park_path](https://github.com/Leels/us_national_parks_api/blob/master/public/images/Screen%20Shot%202020-02-02%20at%201.20.01%20PM.png)
 * Add a new state: POST "/states?name=New State"
-![new_state_path]()
-* Update a state: PATCH "/states?name=New State"
-![new_state_path]()
+![new_state_path](https://raw.githubusercontent.com/Leels/us_national_parks_api/master/public/images/Screen%20Shot%202020-02-02%20at%201.54.35%20PM.png)
+* Edit a state: PATCH "/states/:id?name=Updated State"
+![edit_state_path](https://raw.githubusercontent.com/Leels/us_national_parks_api/master/public/images/Screen%20Shot%202020-02-02%20at%201.59.54%20PM.png)
+* Delete a state: DELETE "/states/:id"
+![delete_state_path](https://raw.githubusercontent.com/Leels/us_national_parks_api/master/public/images/Screen%20Shot%202020-02-02%20at%202.01.03%20PM.png)
 
 
 ### Known Bugs
