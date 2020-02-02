@@ -17,13 +17,17 @@
 
 ### API Endpoints
 * View all States with National Parks: GET "/states"
-![states path](https://raw.githubusercontent.com/Leels/us_national_parks_api/master/public/images/Screen%20Shot%202020-02-02%20at%201.12.47%20PM.png)
+![states_path](https://raw.githubusercontent.com/Leels/us_national_parks_api/master/public/images/Screen%20Shot%202020-02-02%20at%201.12.47%20PM.png)
 * View a specific state: GET "/states/:id"
-![state path](https://raw.githubusercontent.com/Leels/us_national_parks_api/master/public/images/Screen%20Shot%202020-02-02%20at%201.18.41%20PM.png)
+![state_path](https://raw.githubusercontent.com/Leels/us_national_parks_api/master/public/images/Screen%20Shot%202020-02-02%20at%201.18.41%20PM.png)
 * View all parks that belong to a specific state: GET "/states/:id/parks"
-![parks path](https://raw.githubusercontent.com/Leels/us_national_parks_api/master/public/images/Screen%20Shot%202020-02-02%20at%201.19.28%20PM.png)
+![parks_path](https://raw.githubusercontent.com/Leels/us_national_parks_api/master/public/images/Screen%20Shot%202020-02-02%20at%201.19.28%20PM.png)
 * View a specific park: GET "/states/:id/parks/:id"
-![park path](https://github.com/Leels/us_national_parks_api/blob/master/public/images/Screen%20Shot%202020-02-02%20at%201.20.01%20PM.png)
+![park_path](https://github.com/Leels/us_national_parks_api/blob/master/public/images/Screen%20Shot%202020-02-02%20at%201.20.01%20PM.png)
+* Add a new state: POST "/states?name=New State"
+![new_state_path]()
+* Update a state: PATCH "/states?name=New State"
+![new_state_path]()
 
 
 ### Known Bugs
