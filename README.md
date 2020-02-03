@@ -10,7 +10,7 @@
 * from  _C:\Users\exampleUser\exampleCloneLocation\example-project-title>_
 * In the terminal:
 1. $ bundle install
-2. $ rake db:migrate
+2. $ rake db:setup
 4. $ rake db:seed
 5. $ rails s
 * navigate to localhost:3000
