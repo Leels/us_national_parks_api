@@ -11,8 +11,7 @@
 * In the terminal:
 1. $ bundle install
 2. $ rake db:setup
-4. $ rake db:seed
-5. $ rails s
+3. $ rails s
 * navigate to localhost:3000
 
 ### API Endpoints
