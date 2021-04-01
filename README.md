@@ -1,5 +1,4 @@
 # US States API
-## By: Lela Smith
 
 ### Description
 #### API with information about US States and territories. 
